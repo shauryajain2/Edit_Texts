@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Shaurya's Cafe"
+        android:textSize="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Select Your Order"
+        android:textSize="35dp"
+        android:padding="20dp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Order 1"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:id="@+id/ed1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Order 2"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:id="@+id/ed2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Order 3"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:id="@+id/ed3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Order 4"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:id="@+id/ed4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="see your order"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/button1"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
